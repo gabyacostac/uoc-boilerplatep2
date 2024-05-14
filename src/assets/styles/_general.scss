@@ -1,0 +1,48 @@
+h1, h2, h3 {
+  font-family: $degular;
+}
+
+.page {
+  padding-block: 5rem;
+}
+
+.page__header {
+  width: 40dvw;
+  margin: auto;
+}
+
+.page__title {
+  font-weight: 600;
+}
+
+.page__subtitle {
+  color: $crema;
+}
+
+.page__title2 {
+  font-weight: 600;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.page__content {
+  padding-top: 2rem;
+}
+
+.card__title {
+  font-weight: 600;
+}
+
+.media-icon {
+  color: $lila;
+}
+
+@media (max-width: 576px) {
+  .media-icons {
+    margin: auto;
+  }
+
+  .footer-bottom {
+    gap: 1rem;
+  }
+}

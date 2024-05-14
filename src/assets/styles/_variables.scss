@@ -1,12 +1,34 @@
 @use "sass:color";
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
+$degular: "degular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$morado: #471ca8ff;
+$lila: #884ab2ff;
+$amarillo: #ff930aff;
+$naranja: #f24b04ff;
+$crema: #f8f5e4;
+$negro: #000;
 
-$mqMinWidth: 420px;
+$amarillo-bg: color.scale($amarillo, $lightness: 70%);
+
+// Personalización de los componentes de Bootstrap
+
+// Cambiamos el color principal a nuestra variable $lila
+$theme-colors: (
+ "primary": $lila
+);
+
+// Personalizamos las cards
+$card-bg: $amarillo-bg;
+$card-border-color: $naranja;
+
+// Personalizamos los elementos del NavBar
+$navbar-light-color: $lila;
+$navbar-light-icon-color: $lila;
+$navbar-light-toggler-border-color: $naranja;
+
+// Personalizamos el carousel
+$carousel-control-color: $amarillo;
+

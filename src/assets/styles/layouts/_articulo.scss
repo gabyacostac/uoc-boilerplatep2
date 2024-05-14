@@ -1,0 +1,72 @@
+.hero {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero__background {
+  background-image: linear-gradient(to top, $negro, rgb(0 0 0 / 0%)), url("/src/assets/images/romeria1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.article {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.article__container {
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+
+  @media (min-width: 1200px) {
+      width: 60%;
+      margin-inline: auto;
+  }
+}
+
+.hero__title {
+  color: $crema;
+}
+
+.list {
+  border-block: 1px solid $naranja;
+  margin-top: 2rem;
+}
+
+.list__intro {
+  padding-bottom: 2rem;
+}
+
+.list__title {
+  font-weight: 700;
+}
+
+.blockquote {
+  margin-top: 2rem;
+}
+
+.blockquote__content {
+  padding-left: 2rem;
+  border-left: 2px solid $amarillo;
+  font-weight: 300;
+}
+
+.article__image {
+  width: 100%;
+}
+
+.article__author {
+  padding-top: 2rem;
+  color: $crema;
+}
+
+:is(h3, p) > b {
+  color: $naranja;
+}
+
+blockquote:has(cite) {
+  border-left: 2px solid $naranja;
+}
