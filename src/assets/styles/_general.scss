@@ -1,5 +1,11 @@
-h1, h2, h3 {
-  font-family: $degular;
+@layer general {
+  h1, h2, h3 {
+    font-family: $degular;
+  }
+  
+  body {
+    background-color: $crema;
+  }
 }
 
 .page {

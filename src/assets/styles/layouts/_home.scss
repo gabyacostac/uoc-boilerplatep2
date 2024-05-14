@@ -1,7 +1,3 @@
-body {
-  background-color: $crema;
-}
-
 // Fallback for older browsers that do not support display:grid
  
 .cover {
@@ -20,7 +16,7 @@ body {
 .cover__title {
   order: 2;
   font-family: $degular;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 5rem;
   line-height: 0.8;
   padding: 1rem;
@@ -45,8 +41,8 @@ body {
 }
 
 @container (min-width: 400px) {
-  .cover__text {
-    font-size: 1.5rem;
+  .cover__paragraph {
+    font-size: 1.3rem;
   }
 }
 
@@ -54,7 +50,7 @@ body {
   order: 3;
   padding: 1rem;
   font-family: $degular;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 3rem;
   font-style: italic;
   line-height: 1;
@@ -111,7 +107,7 @@ body {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     font-family: $degular;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 5rem;
     line-height: 0.8;
     z-index: 1;
