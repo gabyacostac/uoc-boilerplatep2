@@ -9,7 +9,6 @@
         "margin": "rem",
         "/^border/": "px"
     },
-    "media-feature-name-allowed-list": "min-width",
     "font-weight-notation": "named-where-possible",
     "no-duplicate-selectors": true,
     "comment-no-empty": true,
